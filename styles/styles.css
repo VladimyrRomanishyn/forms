@@ -1,0 +1,147 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-weight: inherit;
+font-style: inherit;
+font-size: 100%;
+font-family: inherit;
+}
+.wrapp{
+	position: relative;
+	margin:  0 auto;
+	width:1000px;
+	height: 800px;
+	background: linear-gradient(to bottom right, #6d17c5,#9e1695);
+}
+.reglog{
+	box-sizing:border-box;
+	position: absolute;
+	right: 50px;
+	top: 5px;
+	width: 250px;
+	height: 30px;
+	background: blue;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px black;
+	opacity: .8;
+}
+.reg,.log{
+	position: absolute;
+	width: 45%;
+	height: 80%;
+	background: red;
+	margin: 3px 5px;
+	border-radius: 5px;
+	box-shadow: inset 1px 1px 0 white, 1px 1px 0 black;
+	color:white;
+	font:12pt bolder Arial;
+	text-align: center;
+	line-height: 1.5;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	cursor: pointer;
+}
+.log{
+	right: 0;
+}
+.reg:hover,.log:hover{
+	background: brown;
+}
+.regform,.logform{
+	display: none;
+	box-sizing:border-box;
+	background: blue;
+	color:white;
+	position: absolute;
+	left: 50%;
+	top: 10%;
+	margin-left: -200px;
+	padding: 25px 10px;
+	width: 400px;
+	height: 150px;
+	box-shadow: 2px 2px 2px black;
+	border-radius: 10px;
+	opacity: .9;
+}
+.regform p,.logform p{
+	position: relative;
+	width: 300px;
+	height: 25px;
+}
+.regform p input,.logform p input{
+	border-radius: 5px;
+	position: absolute;
+	right: 20px;
+	width: 200px;
+}
+#regButton,#logButton{
+	position: absolute;
+	left: 120px;
+	bottom: 25px;
+	background: red;
+	text-align:center;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	cursor: pointer;
+	border-radius: 5px;
+	box-shadow: inset 1px 1px 0 white, 1px 1px 0 black;
+	color:white;
+}
+#logButton{
+	width: 100px;
+	left:50%;
+	margin-left: -60px;
+	}
+#regButton:hover,#logButton:hover{
+	background: brown;
+	text-shadow:1px 1px 1px #000;
+}
+
+#closer,#closer2{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	border-radius: 50%;
+	background: black;
+	right: 15px;
+	top: 8px;
+	color:white;
+	text-align: center;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	cursor: pointer;
+}
+
+#info{
+	position: absolute;
+	left: 25%;
+	top: 100px;
+	color: black;
+	font-size: 18pt;
+	font-family: Arial;
+}
+.user_page{
+	position: absolute;
+	left: 25%;
+	top: 100px;
+	color: white;
+	font-size: 18pt;
+}
